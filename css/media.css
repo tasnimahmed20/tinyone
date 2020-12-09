@@ -1,0 +1,112 @@
+/*Extra Small Device*/
+
+@media (min-width:320px) and (max-width:575.98px) {
+    /*Header Section Start*/
+    .navbar ul li a {
+        font-size: 20px;
+    }
+    .navbar ul li a {
+        margin-right: 0px;
+        text-align: right;
+    }
+    .navbar ul li:last-child a {
+        margin-right: 0;
+    }
+    .navbar ul li a:hover {
+        color: #fff!important;
+    }
+    .navbar ul li a:hover::after {
+        transform: scale(0);
+    }
+    /*Header Section End*/
+    /*Slider Section Start*/
+    .slider_text {
+        margin-top: 25px;
+    }
+    #slider {
+        padding-bottom: 60px;
+    }
+    .slider_text h1 {
+        margin-bottom: 15px;
+        font-size: 28px;
+    }
+    .slider_text h3 {
+        margin-bottom: 16px;
+    }
+    .slider_text p {
+        margin-bottom: 22px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+    }
+    .carousel-indicators {
+        bottom: -55px;
+    }
+    .carousel-indicators li {
+        width: 13px;
+        height: 13px;
+    }
+    /*Slider Section End*/
+}
+
+
+/*Small Device*/
+
+@media (min-width:576px) and (max-width:767.98px) {
+    /*Header Section Start*/
+    .navbar ul li a {
+        font-size: 20px;
+    }
+    .navbar ul li a {
+        margin-right: 0px;
+        text-align: right;
+    }
+    .navbar ul li:last-child a {
+        margin-right: 0;
+    }
+    .navbar ul li a:hover {
+        color: #fff!important;
+    }
+    .navbar ul li a:hover::after {
+        transform: scale(0);
+    }
+    /*Header Section End*/
+    /*Slider Section Start*/
+    .slider_text {
+        margin-top: 25px;
+    }
+    #slider {
+        padding-bottom: 65px;
+    }
+    /*Slider Section End*/
+}
+
+
+/*Medium Device*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Header Section Start*/
+    .navbar ul li a {
+        font-size: 20px;
+    }
+    /*Header Section End*/
+    /*Slider Section Start*/
+    .slider_text {
+        margin-top: 65px;
+    }
+    /*Slider Section End*/
+}
+
+
+/*Large Device*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*Extra Large Device*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+/*Extra Extra Large Device*/
+
+@media (min-width: 1400px) {}
