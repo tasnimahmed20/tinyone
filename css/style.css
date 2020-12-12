@@ -115,3 +115,152 @@ body {
 
 
 /*Slider Section End*/
+
+
+/* Feature Section Start*/
+
+#feature {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.c_text h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.fc_mt {
+    margin-top: 70px;
+}
+
+.c_text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.f_icon {
+    text-align: center;
+}
+
+.f_icon i {
+    font-size: 50px;
+    color: #010101;
+}
+
+.f_text h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+
+.f_text p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #898989;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+
+/* Feature Section End*/
+
+
+/*Subscription Section Start*/
+
+#subscription {
+    padding-top: 110px;
+    padding-bottom: 120px;
+    background: #010101!important;
+}
+
+.ch_yellow {
+    color: #fcdb00!important;
+}
+
+.btn_warning {
+    background: #fcdb00;
+    padding: 8px 4px;
+    font-size: 18px;
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.ci_padding {
+    padding: 10px 8px;
+}
+
+.ci_padding::placeholder {
+    font-size: 18px;
+}
+
+.form-control:focus {
+    border-color: #fcda00;
+    box-shadow: 0 0 0 0.15rem #fcda00;
+}
+
+.form_mt {
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
+.social_icon ul li {
+    margin-right: 40px!important;
+}
+
+.social_icon ul li:last-child {
+    margin-right: 0px!important;
+}
+
+.social_icon ul li i {
+    color: #010101;
+    background: #fcdb00;
+    font-size: 32px;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    padding-top: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.social_icon ul li i:hover {
+    transform: rotate(360deg);
+}
+
+
+/*Subscription Section End*/
+
+
+/* footer start */
+
+footer {
+    padding-top: 0;
+    padding-bottom: 120px;
+    background-color: #010101;
+}
+
+address {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff
+}
+
+.footer_2 ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+/* footer end */

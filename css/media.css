@@ -46,6 +46,49 @@
         height: 13px;
     }
     /*Slider Section End*/
+    /* Feature Section Start*/
+    #feature {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .fc_mt {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .f_icon {
+        margin-bottom: 10px;
+    }
+    .c_text h3 {
+        font-size: 28px;
+    }
+    .c_text p {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    /* Feature Section End*/
+    /*Contact Section Start*/
+    #subscription {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .btn_warning {
+        margin-top: 20px;
+    }
+    .social_icon ul li {
+        margin-right: 15px!important;
+    }
+    .social_icon ul li:last-child {
+        margin-right: 0px!important;
+    }
+    /*Contact Section End*/
+    /* Footer Section Start	 */
+    footer {
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .footer_2 {
+        margin-top: 20px;
+    }
 }
 
 
@@ -78,6 +121,41 @@
         padding-bottom: 65px;
     }
     /*Slider Section End*/
+    /* Feature Section Start*/
+    #feature {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .fc_mt {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .f_icon {
+        margin-bottom: 10px;
+    }
+    .c_text h3 {
+        font-size: 30px;
+    }
+    .c_text p {
+        font-size: 19px;
+        letter-spacing: 0px;
+    }
+    /* Feature Section End*/
+    /* Feature Section Start*/
+    #subscription {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    /* Footer Section Start	 */
+    footer {
+        padding-bottom: 80px;
+    }
+    .footer_1 {
+        text-align: center;
+    }
+    .footer_2 {
+        margin-top: 20px;
+    }
 }
 
 
@@ -94,12 +172,43 @@
         margin-top: 65px;
     }
     /*Slider Section End*/
+    /* Feature Section Start*/
+    #feature {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .c_text p {
+        letter-spacing: 0px;
+    }
+    /* Feature Section End*/
 }
 
 
 /*Large Device*/
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Feature Section Start*/
+    #feature {
+        padding-top: 90px;
+        padding-bottom: 110px;
+    }
+    .c_text p {
+        letter-spacing: 0px;
+    }
+    /* Feature Section End*/
+    /*Contact Section Start*/
+    .social_icon ul li {
+        margin-right: 20px!important;
+    }
+    .social_icon ul li:last-child {
+        margin-right: 0px!important;
+    }
+    /*Contact Section End*/
+    #subscription {
+        padding-top: 90px;
+        padding-bottom: 110px;
+    }
+}
 
 
 /*Extra Large Device*/
